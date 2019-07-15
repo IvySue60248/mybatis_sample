@@ -7,6 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Assert;
 import org.junit.Test;
 
+import javax.management.relation.Role;
 import java.util.Date;
 import java.util.List;
 
@@ -152,6 +153,45 @@ public class RoleMapperTest extends BaseMapperTest {
             for(SysRole role: roles) {
                 System.out.println("role name:" + role.getRoleName());
                 for (SysPrivilege privilege: role.getPrivilegeList()) {
+                    System.out.println("privilege name:" + privilege.getPrivilegeName());
+                }
+            }
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectRoleByUserId() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+            List<SysRole> roleList = roleMapper.selectRoleByUserId(1l);
+            Assert.assertNotNull(roleList);
+            Assert.assertEquals(2, roleList.size());
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectRoleByUserIdChoose() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+            SysRole role = roleMapper.selectById(2l);
+            role.setEnabled(0);
+            roleMapper.updateById(role);
+            List<SysRole> roleList = roleMapper.selectRoleByUserIdChoose(1l);
+            for (SysRole r : roleList) {
+                System.out.println("role name:" + r.getRoleName());
+                if (r.getId().equals(1l)) {
+                    Assert.assertNotNull(r.getPrivilegeList());
+                } else if (r.getId().equals(2l)) {
+                    Assert.assertNull(r.getPrivilegeList());
+                    continue;
+                }
+                for (SysPrivilege privilege : r.getPrivilegeList()) {
                     System.out.println("privilege name:" + privilege.getPrivilegeName());
                 }
             }

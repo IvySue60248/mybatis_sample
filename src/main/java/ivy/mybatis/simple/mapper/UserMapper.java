@@ -40,5 +40,14 @@ public interface UserMapper {
     SysUser selectUserAndRoleByIdSelect(Long id);
 
     List<SysUser> selectAllUserAndRoles();
+    SysUser selectAllUserAndRolesSelect(Long id);
 
+    // 使用存储过程查询用户信息
+    void selectUserById(SysUser user);
+
+    List<SysUser> selectUserPage(Map<String, Object> params);
+
+    int insertUserAndRoles(@Param("user")SysUser user, @Param("roleIds")String roleIds);
+
+    int deleteUserById(Long id);
 }

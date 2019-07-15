@@ -1,9 +1,10 @@
 package ivy.mybatis.simple.model;
 
-import java.util.Date;
+import java.io.Serializable;
 import java.util.List;
 
-public class SysRole {
+public class SysRole implements Serializable {
+
     private Long id;
     private String roleName;
     private Integer enabled;

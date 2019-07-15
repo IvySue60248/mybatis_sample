@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
+@CacheNamespaceRef(RoleMapper.class)
 public interface RoleMapper {
 
     @Select({"select id, role_name roleName, enabled, create_by createBy, create_time createTime",
@@ -40,6 +41,10 @@ public interface RoleMapper {
 
     List<SysRole> selectAllRoleAndPrivileges();
 
+    List<SysRole> selectRoleByUserId(Long userId);
+
+    List<SysRole> selectRoleByUserIdChoose(Long userId);
+
     @Insert({ "insert into sys_role (role_name, enabled, create_by, create_time)",
             "values(#{roleName}, #{enabled}, #{createBy},#{createTime, jdbcType=TIMESTAMP})"})
     int insert(SysRole sysRole);
@@ -57,7 +62,7 @@ public interface RoleMapper {
             before = false)
     int insert3(SysRole sysRole);
 
-    @Update({"update sys_role set role_name=#{roleName}, enabled=#{enabled}, create_by=#{createBy}, create_time=#{createTime} where id = #{id}"})
+    @Update({"update sys_role set role_name=#{roleName}, enabled=#{enabled}, create_by=#{createInfo.createBy}, create_time=#{createInfo.createTime} where id = #{id}"})
     int updateById(SysRole sysRole);
 
     @Delete({"delete from sys_role where id = #{id}"})

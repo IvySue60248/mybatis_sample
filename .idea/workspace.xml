@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a00abc4d-879c-43dd-9a56-d72cc138cb75" name="Default Changelist" comment="" />
+    <list default="true" id="a00abc4d-879c-43dd-9a56-d72cc138cb75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/PrivilegeMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/PrivilegeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/PrivilegeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/PrivilegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/PrivilegeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/PrivilegeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/PrivilegeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/PrivilegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/PrivilegeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ivy/mybatis/simple/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ivy/mybatis/simple/mapper/RoleMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ivy/mybatis/simple/mapper/RoleMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ivy/mybatis/simple/mapper/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ivy/mybatis/simple/mapper/UserMapperTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,45 +40,57 @@
     <session id="1763080265">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6721" />
+          <entry key="java" value="9688" />
+          <entry key="md" value="67" />
           <entry key="properties" value="274" />
-          <entry key="xml" value="7847" />
+          <entry key="xml" value="9826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6721" />
+          <entry key="JAVA" value="9688" />
+          <entry key="Markdown" value="67" />
           <entry key="Properties" value="274" />
-          <entry key="SQL" value="101" />
-          <entry key="XML" value="7746" />
+          <entry key="SQL" value="135" />
+          <entry key="XML" value="9691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
-          <entry key="java" value="37" />
+          <entry key="class" value="19" />
+          <entry key="java" value="63" />
+          <entry key="md" value="3" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="24" />
+          <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="37" />
+          <entry key="CLASS" value="19" />
+          <entry key="JAVA" value="63" />
+          <entry key="Markdown" value="3" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="24" />
+          <entry key="XML" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="3" />
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.merge" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -65,10 +98,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="358" column="28" lean-forward="true" selection-start-line="358" selection-start-column="28" selection-end-line="358" selection-end-column="28" />
+            <state relative-caret-position="75">
+              <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4965">
+              <caret line="331" column="45" selection-start-line="331" selection-start-column="45" selection-end-line="331" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,46 +128,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar!/org/apache/ibatis/binding/MapperProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar!/org/apache/ibatis/binding/MapperMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="438" column="41" selection-start-line="438" selection-start-column="23" selection-end-line="438" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,41 +154,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/CacheTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="278" column="54" selection-start-line="278" selection-start-column="54" selection-end-line="278" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -169,16 +187,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/CreateInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
+                <element signature="e#172#173#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,7 +228,19 @@
       <find>selectAll</find>
       <find>userRoleMapSelect</find>
       <find>userRoleListMap</find>
+      <find>selectRoleByUserId</find>
+      <find>updateById</find>
+      <find>update sys_role</find>
+      <find>userRoleListMapSelect</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,7 +250,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysUserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysPrivilege.java" />
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRolePrivilege.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/PrivilegeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RolePrivilegeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserRoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RolePrivilegeMapper.xml" />
@@ -224,16 +262,20 @@
         <option value="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/CountryMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/CountryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/CreateInfo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/PrivilegeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/PrivilegeMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/PrivilegeMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/CreateInfo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/CacheTest.java" />
       </list>
     </option>
   </component>
@@ -327,12 +369,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,14 +449,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -441,13 +476,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562722988947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563155437544" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -468,8 +503,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoleMapperTest.testSelectAllRoleAndPrivileges">
-    <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CacheTest.testL2Cache">
+    <configuration name="CacheTest.testL1Cache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_sample" />
       <extension name="coverage">
         <pattern>
@@ -478,14 +513,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ivy.mybatis.simple.mapper" />
-      <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.RoleMapperTest" />
-      <option name="METHOD_NAME" value="testSelectAllRoleAndPrivileges" />
+      <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.CacheTest" />
+      <option name="METHOD_NAME" value="testL1Cache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testSelectAllUserAndRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CacheTest.testL2Cache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivy.mybatis.simple.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ivy.mybatis.simple.mapper" />
+      <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.CacheTest" />
+      <option name="METHOD_NAME" value="testL2Cache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testInsertAndDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_sample" />
       <extension name="coverage">
         <pattern>
@@ -495,13 +546,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ivy.mybatis.simple.mapper" />
       <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectAllUserAndRoles" />
+      <option name="METHOD_NAME" value="testInsertAndDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testSelectUserAndRoleById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.testSelectUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_sample" />
       <extension name="coverage">
         <pattern>
@@ -511,13 +562,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ivy.mybatis.simple.mapper" />
       <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectUserAndRoleById" />
+      <option name="METHOD_NAME" value="testSelectUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testSelectUserAndRoleById2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.testSelectUserPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_sample" />
       <extension name="coverage">
         <pattern>
@@ -527,42 +578,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="ivy.mybatis.simple.mapper" />
       <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectUserAndRoleById2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.testSelectUserAndRoleByIdSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_sample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ivy.mybatis.simple.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ivy.mybatis.simple.mapper" />
-      <option name="MAIN_CLASS_NAME" value="ivy.mybatis.simple.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectUserAndRoleByIdSelect" />
+      <option name="METHOD_NAME" value="testSelectUserPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleById" />
-      <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleById2" />
-      <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleByIdSelect" />
-      <item itemvalue="JUnit.UserMapperTest.testSelectAllUserAndRoles" />
-      <item itemvalue="JUnit.RoleMapperTest.testSelectAllRoleAndPrivileges" />
+      <item itemvalue="JUnit.UserMapperTest.testSelectUserById" />
+      <item itemvalue="JUnit.UserMapperTest.testSelectUserPage" />
+      <item itemvalue="JUnit.UserMapperTest.testInsertAndDelete" />
+      <item itemvalue="JUnit.CacheTest.testL1Cache" />
+      <item itemvalue="JUnit.CacheTest.testL2Cache" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoleMapperTest.testSelectAllRoleAndPrivileges" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectAllUserAndRoles" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleByIdSelect" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleById2" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleById" />
+        <item itemvalue="JUnit.CacheTest.testL2Cache" />
+        <item itemvalue="JUnit.CacheTest.testL1Cache" />
+        <item itemvalue="JUnit.UserMapperTest.testInsertAndDelete" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectUserPage" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -581,49 +616,51 @@
       <workItem from="1562060902701" duration="735000" />
       <workItem from="1562062438538" duration="22295000" />
       <workItem from="1562334009286" duration="24954000" />
-      <workItem from="1562649691930" duration="6324000" />
+      <workItem from="1562649691930" duration="11868000" />
+      <workItem from="1562814125828" duration="18128000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.09 at 10h 32m 52s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="RoleMapperTest_testSelectRoleByUserIdChoose - 2019.07.13 at 19h 55m 14s.xml">
+      <configuration name="RoleMapperTest.testSelectRoleByUserIdChoose" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.09 at 10h 33m 46s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="RoleMapperTest_testSelectRoleByUserIdChoose - 2019.07.13 at 19h 55m 44s.xml">
+      <configuration name="RoleMapperTest.testSelectRoleByUserIdChoose" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.10 at 08h 49m 46s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectUserById - 2019.07.14 at 16h 05m 03s.xml">
+      <configuration name="UserMapperTest.testSelectUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.10 at 08h 51m 12s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectUserPage - 2019.07.14 at 16h 12m 47s.xml">
+      <configuration name="UserMapperTest.testSelectUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.10 at 08h 51m 49s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testInsertAndDelete - 2019.07.14 at 16h 21m 36s.xml">
+      <configuration name="UserMapperTest.testInsertAndDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.10 at 08h 53m 27s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testInsertAndDelete - 2019.07.14 at 16h 22m 03s.xml">
+      <configuration name="UserMapperTest.testInsertAndDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectAllUserAndRoles - 2019.07.10 at 09h 23m 41s.xml">
-      <configuration name="UserMapperTest.testSelectAllUserAndRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testInsertAndDelete - 2019.07.14 at 16h 24m 18s.xml">
+      <configuration name="UserMapperTest.testInsertAndDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_testSelectAllRoleAndPrivileges - 2019.07.10 at 09h 30m 29s.xml">
-      <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" configurationId="JUnit" />
+    <history-entry file="CacheTest_testL1Cache - 2019.07.15 at 08h 56m 54s.xml">
+      <configuration name="CacheTest.testL1Cache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_testSelectAllRoleAndPrivileges - 2019.07.10 at 09h 36m 33s.xml">
-      <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" configurationId="JUnit" />
+    <history-entry file="CacheTest_testL1Cache - 2019.07.15 at 08h 57m 39s.xml">
+      <configuration name="CacheTest.testL1Cache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_testSelectAllRoleAndPrivileges - 2019.07.10 at 09h 40m 50s.xml">
-      <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" configurationId="JUnit" />
+    <history-entry file="CacheTest_testL2Cache - 2019.07.15 at 09h 43m 20s.xml">
+      <configuration name="CacheTest.testL2Cache" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60018000" />
+    <option name="totallyTimeSpent" value="83690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="23" width="2560" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16918188" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15528198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -632,16 +669,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86814934" weight="0.41044176" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.4257028" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.86752135" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.498779" weight="0.42479908" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49722" weight="0.32851407" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.498779" weight="0.4707233" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501221" side_tool="true" weight="0.42479908" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49722" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24980143" />
@@ -891,6 +928,12 @@
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -973,13 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/PrivilegeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1077,105 +1113,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysUserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/PrivilegeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="278" column="54" selection-start-line="278" selection-start-column="54" selection-end-line="278" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="358" column="28" lean-forward="true" selection-start-line="358" selection-start-column="28" selection-end-line="358" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/CreateInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,29 +1129,156 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar!/org/apache/ibatis/binding/MapperMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="1470">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="1005">
           <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/PrivilegeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/PrivilegeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/PrivilegeMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/CreateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/RoleMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+        <state relative-caret-position="140">
+          <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="438" column="41" selection-start-line="438" selection-start-column="23" selection-end-line="438" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4965">
+          <caret line="331" column="45" selection-start-line="331" selection-start-column="45" selection-end-line="331" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ivy/mybatis/simple/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ivy/mybatis/simple/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ivy/mybatis/simple/mapper/CacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

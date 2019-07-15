@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ivy.mybatis.simple.mapper.RoleMapper">
-
+    <cache eviction="FIFO" flushInterval="60000" size="512" readOnly="false"/>
     <resultMap id="roleMap" type="ivy.mybatis.simple.model.SysRole">
         <result property="id" column="id"/>
         <result property="roleName" column="role_name"/>
@@ -16,6 +16,17 @@
 
     <resultMap id="rolePrivilegeListMap" extends="roleMap" type="ivy.mybatis.simple.model.SysRole">
         <collection property="privilegeList" columnPrefix="privilege_" resultMap="ivy.mybatis.simple.mapper.PrivilegeMapper.privilegeMap"/>
+    </resultMap>
+
+    <resultMap id="rolePrivilegeListMapSelect" type="ivy.mybatis.simple.model.SysRole" extends="roleMap">
+        <collection property="privilegeList" fetchType="lazy" column="{roleId=id}" select="ivy.mybatis.simple.mapper.PrivilegeMapper.selectPrivilegeByRoleId"/>
+    </resultMap>
+    
+    <resultMap id="rolePrivilegeListMapChoose" type="ivy.mybatis.simple.model.SysRole">
+        <discriminator column="enabled" javaType="int">
+            <case value="1" resultMap="rolePrivilegeListMapSelect"/>
+            <case value="0" resultMap="roleMap"/>
+        </discriminator>
     </resultMap>
 
     <select id="selectRoleById" resultMap="roleMap">
@@ -34,5 +45,19 @@
         from sys_role r
         inner join sys_role_privilege rp on rp.role_id = r.id
         inner join sys_privilege p on p.id = rp.privilege_id
+    </select>
+
+    <select id="selectRoleByUserId" resultMap="rolePrivilegeListMapSelect">
+        select r.*
+        from sys_role r
+        inner join sys_user_role ur on ur.role_id = r.id
+        where user_id = #{userId}
+    </select>
+
+    <select id="selectRoleByUserIdChoose" resultMap="rolePrivilegeListMapChoose">
+        select *
+        from sys_role r
+        inner join sys_user_role ur on ur.role_id=r.id
+        where ur.user_id = #{userId}
     </select>
 </mapper>

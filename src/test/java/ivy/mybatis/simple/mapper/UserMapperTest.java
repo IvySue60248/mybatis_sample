@@ -372,4 +372,78 @@ public class UserMapperTest extends BaseMapperTest {
         }
     }
 
+    @Test
+    public void testSelectAllUserAndRolesSelect() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = userMapper.selectAllUserAndRolesSelect(1l);
+
+            for (SysRole role : user.getRoleList()) {
+                System.out.println("role name :" +role.getRoleName());
+                for (SysPrivilege privilege : role.getPrivilegeList()) {
+                    System.out.println("privilege name:" + privilege.getPrivilegeName());
+                }
+            }
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectUserById() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = new SysUser();
+            user.setId(1l);
+            userMapper.selectUserById(user);
+            Assert.assertNotNull(user.getUserName());
+            System.out.println("user name:" + user.getUserName());
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectUserPage() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            Map<String, Object> params = new HashMap<>();
+            params.put("userName", "ad");
+            params.put("offset", 0);
+            params.put("limit", 10);
+            List<SysUser> userList = userMapper.selectUserPage(params);
+            Long total = (Long) params.get("total");
+            System.out.println("total:" + total);
+            for(SysUser user : userList) {
+                System.out.println("user name:" + user.getUserName());
+            }
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testInsertAndDelete() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = new SysUser();
+            user.setUserName("test1");
+            user.setUserPassword("123456");
+            user.setUserEmail("test@mybatis.tk");
+            user.setUserInfo("test info");
+            user.setHeadImg(new byte[]{1,2,3});
+            userMapper.insertUserAndRoles(user, "1,2");
+            Assert.assertNotNull(user.getId());
+            Assert.assertNotNull(user.getCreateTime());
+            sqlSession.commit();
+            //userMapper.deleteUserById(user.getId());
+        } finally {
+            sqlSession.close();
+        }
+    }
+
 }
